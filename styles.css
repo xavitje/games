@@ -1,0 +1,107 @@
+/* Globale Stijlen */
+body {
+    font-family: 'Raleway', sans-serif; /* Een modern en strak font */
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe; /* Bijna wit, heel zacht */
+    color: #333; /* Donkergrijs voor goede leesbaarheid */
+}
+
+/* Kleurenpalet (Liefdevol) */
+:root {
+    --primary-color: #ff69b4; /* Fel roze (Hot Pink) */
+    --secondary-color: #ffb6c1; /* Licht roze */
+    --accent-color: #8a2be2; /* Zacht paars/blauw */
+    --text-color: #333;
+}
+
+/* Navigatiebalk */
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    padding: 15px 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive; /* Een speels, liefdevol font voor de naam */
+    font-size: 1.8em;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--accent-color);
+}
+
+/* Hero Sectie (Grote Welkom) */
+.hero-section {
+    background-color: var(--secondary-color);
+    padding: 100px 5%;
+    text-align: center;
+    color: white;
+    /* Optioneel: Achtergrondafbeelding met een zachte overlay */
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: white; /* Of een heel donkere kleur voor contrast */
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* CTA Knop (Call-to-Action) */
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px; /* Rond voor een 'lieve' look */
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #eee;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+/* Optioneel: Stijl voor uitgelichte games (Featured Games) */
+.featured-games {
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.featured-games h2 {
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
